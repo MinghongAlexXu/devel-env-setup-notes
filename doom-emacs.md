@@ -91,4 +91,5 @@ https://www.reddit.com/r/emacs/comments/jws8eh/directory_navigation_in_doom_emac
 
 
 **Tricks:**
-https://github.com/hlissner/doom-emacs/issues/2554
+- https://github.com/hlissner/doom-emacs/issues/2554
+- https://emacs-china.org/t/weekly-tips-tricks/18171

@@ -1,7 +1,7 @@
 # Multi-Platform Awesome Softwares
 
 ## Lists
-
+-  [37 Essential Linux Apps 2021](https://itsfoss.com/essential-linux-applications/)
 
 ## Favourites
 - git
