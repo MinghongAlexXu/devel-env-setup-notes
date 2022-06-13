@@ -17,9 +17,10 @@ Check fish paths by `echo $fish_user_paths`.
 
 ## Misc
 
-- [Define aliases](https://stackoverflow.com/questions/2762994/define-an-alias-in-fish-shell)
-- [Interactive use](https://fishshell.com/docs/current/interactive.html)
-- [Greeting message](https://stackoverflow.com/a/19291140/18955467)
+- [define aliases](https://stackoverflow.com/questions/2762994/define-an-alias-in-fish-shell)
+- [environment variable](https://fishshell.com/docs/current/faq.html#how-do-i-set-or-clear-an-environment-variable)
+- [interactive use](https://fishshell.com/docs/current/interactive.html)
+- [greeting message](https://stackoverflow.com/a/19291140/18955467)
 
 
 
