@@ -3,3 +3,4 @@ From an [official comment](https://forum.proxmox.com/threads/unable-to-install-p
 So every HW where Linux works will work with Proxmox VE.
 And more specific Ubuntu has an [HCL](https://certification.ubuntu.com/) where all tested HW is listed.
 
+## GPU partitioning (GPU-P)
