@@ -4,7 +4,7 @@ dmesg -l err,warn
 
 Wait and print only new messages
 ```
-dmesg -W
+dmesg -WH
 ```
 
 Save

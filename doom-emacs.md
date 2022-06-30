@@ -36,32 +36,6 @@ Install
 needs CMake in the PATH.
 
 
-## Racket
-```lisp
-~/.doom.d/init.el
------------------
-(racket +xp)  ;; lsp 还不完整
-```
-安装 toolchain (racket raco drracket)
-```shell
-# 直接安装 包含 drracket 的 racket。省力。
-> brwe install --cask racket
-```
-或者
-```shell
-> brew install minimal-racket
-# 在 ~/.doom.d/init.el 开启 racket，doctor sync 后会自动安装 racket-mode。
-# racket-mode needs drracket Racket package.
-> raco pkg install --auto drracket
-# 添加 drracket 到搜索路径 racket-mode 才能找到
-```
-`M-x` `racket-mode-start-faster`: Compile Racket Mode’s .rkt files for [faster startup](https://www.racket-mode.com/#racket_002dmode_002dstart_002dfaster).
-
-
-## Haskell
-按照官网建议，先安装 `ghcup` 再通过它安装 `ghc` `cabal` `hls`
-
-
 ## Supported Project Types
 https://docs.projectile.mx/projectile/projects.html
 
