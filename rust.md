@@ -1,4 +1,18 @@
-Install rustup.
+## Install rustup (assuming using fish)
+
+```
+1) Proceed with installation (default)
+2) Customize installation
+3) Cancel installation
+>2
+
+Modify PATH variable? (Y/n)
+n
+```
+
+Add path to fish: `fish_add_path $HOME/.cargo/env`
+
+## Common cmds of rustup
 
 `rustup install [stable, nightly, ...]`
 
@@ -13,5 +27,5 @@ Install rustup.
 
 Install through OS package manager (from [doc of Doom Emacs](https://docs.doomemacs.org/latest/modules/lang/rust/)).
 
-### References
+## References
 - https://rust-analyzer.github.io/manual.html

@@ -9,11 +9,21 @@
 5. Set fish as the default shell: `chsh -s /opt/homebrew/bin/fish`.
 6. Restart the terminal and check if it launched with fish or not.
 
-## Path
+## Tips and tricks
 
-Add path using [fish_add_path](https://fishshell.com/docs/current/cmds/fish_add_path.html).
+### Autosuggestions
+- `Control+F` accept the autosuggestion
+- `Alt+F` accept the first suggested word
 
-Check fish paths by `echo $fish_user_paths`.
+### Path
+- Add path using [fish_add_path](https://fishshell.com/docs/current/cmds/fish_add_path.html).
+- Check fish paths by `echo $fish_user_paths`.
+
+### [Command line editor](https://fishshell.com/docs/current/interactive.html#command-line-editor)
+
+- `Alt+E` edit the current command line in an external editor. 
+- The editor is chosen from the first available of the `$VISUAL` or `$EDITOR` variables.
+- `Alt+V` same as `Alt+E`.
 
 ## Misc
 
@@ -21,6 +31,7 @@ Check fish paths by `echo $fish_user_paths`.
 - [environment variable](https://fishshell.com/docs/current/faq.html#how-do-i-set-or-clear-an-environment-variable)
 - [interactive use](https://fishshell.com/docs/current/interactive.html)
 - [greeting message](https://stackoverflow.com/a/19291140/18955467)
+- [incremental history search](https://superuser.com/questions/627929/is-there-a-reverse-incremental-search-functionality-in-fish-similar-to-bash-s) 
 
 
 

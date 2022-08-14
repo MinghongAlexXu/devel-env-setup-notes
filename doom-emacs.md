@@ -36,11 +36,11 @@ Install
 needs CMake in the PATH.
 
 
-## Supported Project Types
+## Supported project types
 https://docs.projectile.mx/projectile/projects.html
 
 
-## See Errors from Flycheck
+## See errors from flycheck
 https://www.reddit.com/r/DoomEmacs/comments/jca63l/how_to_see_all_of_error_message/
 
 See full errors by `SPC c x` or `:errors`
@@ -53,17 +53,24 @@ See partially by
 ```
 
 
-## Force Load Pkgs
+## Force load pkgs
 ```lisp
 (dolist (pkg '(avy expand-region helm lsp-mode))
   (require pkg))
 ```
 
 
-## Dir Navi
+## Dir navi
 https://www.reddit.com/r/emacs/comments/jws8eh/directory_navigation_in_doom_emacs/
 
 
-**Tricks:**
+## Tricks:
 - https://github.com/hlissner/doom-emacs/issues/2554
 - https://emacs-china.org/t/weekly-tips-tricks/18171
+
+## Themes
+- https://emacsthemes.com/
+- https://clojureverse.org/t/emacs-color-theme/4632
+
+## Configs worth learning from
+- https://www.grszkth.fr/blog/doom-config/

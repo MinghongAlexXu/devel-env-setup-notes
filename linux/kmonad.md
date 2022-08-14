@@ -1,11 +1,22 @@
 ## Systemd
 
-Each package that contains software that wants/needs to start a traditional service at boot **MUST** have a systemd unit file. KMonad obeys this rule, so simply executing `systemctl enable kmonad.service` enables starting at boot, and the unit file is located at `/usr/lib/systemd/system/kmonad.service`.
+Each package that contains software wants/needs to start a traditional service at boot **MUST** have a systemd unit file. KMonad obeys this rule, so simply executing `systemctl enable kmonad.service` or `systemctl --user enable kmonad.service` enables starting at boot for system-wide or [for current user](https://wiki.archlinux.org/title/systemd/User) only. The unit file is located at `/usr/lib/systemd/system/kmonad.service` and `/usr/lib/systemd/user/kmonad.service`.
 
 > Basically, files that ships in packages downloaded from distribution repository go into /usr/lib/systemd/. Modifications done by system administrator (user) go into /etc/systemd/system/. [Ref](https://unix.stackexchange.com/a/208352)
 
 `%E` in the unit file means **configuration directory root**.
 > It is either `/etc/` (for the system manager) or the path `$XDG_CONFIG_HOME` resolves to (for user managers). [Ref](https://www.freedesktop.org/software/systemd/man/systemd.unit.html)
+
+### Permission denied
+If the kmonad.service is set to start only for the current user, it is likely to encounter the error `#=> kmonad: /dev/uinput: openFd: permission denied (Permission denied)`. Solution could be
+```shell
+# fish
+sudo modprobe uinput
+sudo groupadd uinput
+sudo usermod -aG input (whoami)
+sudo usermod -aG uinput (whoami)
+```
+mentioned [here](https://stephen.yearl.us/kmonad-colemak-key-rebinds-typing-and-such/), or for NixOS --> https://github.com/kmonad/kmonad/issues/35
 
 ## Config
 
