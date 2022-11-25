@@ -33,6 +33,7 @@ FileManager = ranger
 ## Problems
 - [rust or rustup?](https://wiki.archlinux.org/title/rust#Installation)
 - [error: no default toolchain configured](https://stackoverflow.com/questions/44303915/no-default-toolchain-configured-after-installing-rustup)
+- [error while loading shared libraries: libssl.so.1.1: cannot open shared object file: No such file or directory](https://www.reddit.com/r/archlinux/comments/yn5o8a/comment/iv7qkme/)
 
 
 # PKGBUILD
