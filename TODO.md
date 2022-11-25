@@ -1,0 +1,2 @@
+- [ ] Split the usage notes from set-up notes
+- [ ] Rendering the notes like [this](https://github.com/johannst/notes) for more comfortable reviewing
