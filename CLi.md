@@ -1,6 +1,8 @@
 ## Lists
 
 [ibraheemdev/modern-unix](https://github.com/ibraheemdev/modern-unix)
+[new(ish) command line tools](https://jvns.ca/blog/2022/04/12/a-list-of-new-ish--command-line-tools)
+[awesome command line apps](https://git.herrbischoff.com/awesome-command-line-apps/about/)
 
 ## Tips
 
