@@ -25,6 +25,8 @@ ip address
 
 netcat
 
+netstat -luntp
+
 ss
 
 httpie
