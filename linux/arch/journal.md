@@ -1,6 +1,11 @@
 
 
 
+2023-1-31
+Parsec is built for X11, targeting Ubuntu 20.04 LTS.
+Error "Bluetooth: hci0: Malformed MSFT vendor event: 0x02"
+https://bbs.archlinux.org/viewtopic.php?id=276815
+
 2023-1-10
 
 emacs: error while loading shared libraries: libtiff.so.5: cannot open shared object file: No such file or directory.
