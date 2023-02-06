@@ -1,3 +1,6 @@
+## Cheatsheet
+- https://wiki.garudalinux.org/en/sway-cheatsheet
+
 ## Config
 
 Copy the sample config to the home and begin editting:
@@ -47,6 +50,3 @@ seat * hide_cursor when-typing enable
 - https://github.com/swaywm/sway/tree/master/completions/fish
   - `swaymsg -t get_outputs` prints the list of current outputs.
 - https://www.reddit.com/r/swaywm/comments/mtguzy/comment/guzk9gk/
-
-## 修复记录
-- [2022/06/30](https://www.reddit.com/r/Gentoo/comments/s1gt8b/comment/hsazbkg): Install [polkit](https://wiki.archlinux.org/title/Polkit)

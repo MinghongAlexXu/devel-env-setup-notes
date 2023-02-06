@@ -29,3 +29,7 @@ How to manage [package] not present in AUR?
 Display date when a package was marked out of date during update
 
 `-Si` and `-Ss` both do this.
+
+2022/06/30
+[cannot start: libseat: Could not activate session: Permission denied](https://www.reddit.com/r/Gentoo/comments/s1gt8b/comment/hsazbkg)
+Install [polkit](https://wiki.archlinux.org/title/Polkit)
