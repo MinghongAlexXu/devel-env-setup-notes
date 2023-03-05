@@ -1,3 +1,5 @@
+[A good config example](https://youtu.be/H70lULWJeig)
+
 https://www.redhat.com/sysadmin/ssh-tmux-screen-sharing
 https://www.redhat.com/sysadmin/tips-using-tmux
 https://github.com/gpakosz/.tmux
