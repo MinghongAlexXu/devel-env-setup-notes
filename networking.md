@@ -37,6 +37,8 @@ netstat -luntp
 
 ss
 
+ss -lntp
+
 httpie
 
 ```
