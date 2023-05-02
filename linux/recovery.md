@@ -1,4 +1,5 @@
-https://wiki.debian.org/Console
+Open the [Linux console](https://wiki.debian.org/Console), then stop the GUI service (e.g. Ubuntu `sudo service gdm stop`, `sudo service gdm start` to start it again).
+
 
 Check `/var/log/`
 
