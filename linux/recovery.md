@@ -1,3 +1,6 @@
+
+[Boot without GUI](https://wiki.archlinux.org/title/Systemd#Change_default_target_to_boot_into)
+
 Open the [Linux console](https://wiki.debian.org/Console), then stop the GUI service (e.g. Ubuntu `sudo service gdm stop`, `sudo service gdm start` to start it again).
 
 
