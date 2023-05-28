@@ -1,3 +1,7 @@
+
+[How to include systemlogs in your post](https://discovery.endeavouros.com/forum-log-tool-options/how-to-include-systemlogs-in-your-post/2021/03/)
+
+
 ```
 dmesg -l err,warn
 ```
